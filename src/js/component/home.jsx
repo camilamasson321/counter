@@ -1,4 +1,5 @@
 import React from "react";
+import Dcounter from "/workspace/react-hello/src/js/component/Counter.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -7,7 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
+			<Dcounter/>
 			<p>
 				<img src={rigoImage} />
 			</p>
